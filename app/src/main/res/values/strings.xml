@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">App Design One</string>
+    <string name="app_logo">App Logo</string>
+    <string name="your_app_name">Your App Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="remember_me">Remember me</string>
+
+    <!--Dummy Content-->
+    <string name="lorem_ipsum_is_simply_dummy_text">Lorem Ipsum is simply dummy text</string>
+    <string name="four_line_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare massa eget egestas purus viverra accumsan in.</string>
+    <string name="background">background</string>
+    <string name="back">Back Pressed</string>
+    <string name="please_enter_email_address">Please Enter Email Address</string>
+    <string name="please_enter_valid_email_address">Please Enter Valid Email Address</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_enter_name">Please Enter Name</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">John</string>
+    <string name="nav_header_subtitle">john@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_plans">Plans</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_logout">Logout</string>
+    <string name="john">John</string>
+    <string name="john_gmail_com">john@gmail.com</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="error_user_registered">Error occurred user not register</string>
+    <string name="user_registered">User registered successfully</string>
+    <string name="welcome_msg">Welcome to the App!</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset">Reset</string>
+    <string name="please_check_your_email">Please check your email</string>
+    <string name="please_verify_your_email">Please verify your email then you will able to login</string>
+</resources>

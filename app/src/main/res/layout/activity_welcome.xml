@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.WelcomeActivity">
+
+        <ImageView
+            android:id="@+id/cvBackground"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginStart="-40dp"
+            android:layout_marginTop="-80dp"
+            android:contentDescription="@string/background"
+            android:rotation="340"
+            android:src="@drawable/common_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/_20ssp"
+            android:paddingTop="@dimen/_24ssp"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_26ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/_24ssp"
+            android:text="@string/lorem_ipsum_is_simply_dummy_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvWelcome" />
+
+        <ImageView
+            android:id="@+id/ivAppLogo"
+            android:layout_width="@dimen/_70ssp"
+            android:layout_height="@dimen/_70ssp"
+            android:layout_marginTop="@dimen/_80ssp"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/app_logo"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cvBackground"
+            app:tint="@color/primaryDarkColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26ssp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="@dimen/_4ssp"
+            android:paddingHorizontal="@dimen/_31ssp"
+            android:text="@string/four_line_lorem_ipsum"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivAppLogo"
+            tools:targetApi="o" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:layout_marginHorizontal="@dimen/_60ssp"
+            android:layout_marginBottom="@dimen/_16ssp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.18"
+            android:text="@string/log_in"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toTopOf="@id/btnCreateAc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCreateAc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:layout_marginHorizontal="@dimen/_60ssp"
+            android:layout_marginBottom="@dimen/_20ssp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.18"
+            android:text="@string/create_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
