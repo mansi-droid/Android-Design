@@ -9,3 +9,4 @@ Added Functionality Like Login, Sign Up, Forgot Password, Logout, Stay LoggedIn.
 ![login_screen](https://user-images.githubusercontent.com/46253843/212859030-0c163d60-99b9-4a8a-85fe-b226e5afe998.png)
 ![sign_up_screen](https://user-images.githubusercontent.com/46253843/212859354-11e12927-ccb4-4033-a86e-70451d3bfe36.png)
 ![drawer_screen](https://user-images.githubusercontent.com/46253843/212859360-137d2ec9-996c-43ec-a12c-ad1697117ac0.png)
+![forgot_password](https://user-images.githubusercontent.com/46253843/217221533-a015c72e-ca9b-4d4f-b8b8-ce9749aed814.png)
